@@ -24,16 +24,16 @@ convert = function(decimalNumber) {
 
     var romanNumber = "";
 
-    while (decimalNumber > 0) {
-        romanNumber += convertAllExcept14(decimalNumber);
-        decimalNumber -= getGreatestRomanKey(decimalNumber);
-    }
-
-//    if (decimalNumber === 14) {
-//        romanNumber = "X" + convertAllExcept14(decimalNumber - 10);
-//    } else {
-//        romanNumber = convertAllExcept14(decimalNumber);
+//    while (decimalNumber > 0) {
+//        romanNumber += convertAllExcept14(decimalNumber);
+//        decimalNumber -= getGreatestRomanKey(decimalNumber);
 //    }
+
+    if (decimalNumber === 14) {
+        romanNumber = "X" + convertAllExcept14(decimalNumber - 10);
+    } else {
+        romanNumber = convertAllExcept14(decimalNumber);
+    }
 
 
 
