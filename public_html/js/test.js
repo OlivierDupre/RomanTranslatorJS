@@ -46,6 +46,9 @@ test("19 retourne XIX", function() {
 test("100 retourne C", function() {
     equal(convert(100), "C", "Passed!");
 });
+test("449 retourne CDXLIX", function() {
+    equal(convert(449), "CDXLIX", "Passed!");
+});
 test("1000 retourne M", function() {
     equal(convert(1000), "M", "Passed!");
 });
