@@ -2,27 +2,21 @@ module("Chiffres décimaux");
 test( "1 retourne I", function() {
   equal( convert(1), "I","Passed!" );
 });
-
 test( "2 retourne II", function() {
   equal( convert(2), "II", "Passed!" );
 });
-
 test("3 retourne III", function() {
     equal(convert(3), "III", "Passed!");
 });
-
 test("4 retourne IV", function() {
     equal(convert(4), "IV", "Passed!");
 });
-
 test( "5 retourne V", function(){
   equal( convert(5), "V", "Passed!" );
 });
-
 test( "6 retourne VI", function(){
   equal( convert(6), "VI", "Passed!" );
 });
-
 test("8 return VIII", function() {
    equal(convert(8), "VIII", "Passed!");
 });
