@@ -1,3 +1,4 @@
+// Premier module
 module("Chiffres décimaux");
 test( "1 retourne I", function() {
   equal( convert(1), "I","Passed!" );
@@ -24,6 +25,7 @@ test("9 retourne IX", function() {
     equal(convert(9), "IX", "Passed!");
 });
 
+// Second module
 module("Nombres décimaux");
 test("10 retourne X", function() {
     equal(convert(10), "X", "Passed!");
